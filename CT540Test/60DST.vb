@@ -29,7 +29,9 @@ Friend Class Form16
         ' Conversion note: FormHeight and FormWidth defined and initialzed in PrintScreen sub - these statements are redundant and not needed - HRH 01/01/2017
         'FormHeight = PixelsToTwipsY(CDbl(Me.Height))
         'FormWidth = PixelsToTwipsX(CDbl(Me.Width))
-        PrintScreen()
+
+        PrintScreen(Me.Bounds)
+
     End Sub
 
     Private Sub cmdDistance_Click(ByVal eventSender As System.Object, ByVal eventArgs As System.EventArgs) Handles cmdDistance.Click

@@ -83,10 +83,138 @@
     <Compile Include="60DST.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="ArcTime.designer.vb">
+      <DependentUpon>ArcTime.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ArcTime.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AssemblyInfo.vb" />
+    <Compile Include="Averaging.designer.vb">
+      <DependentUpon>Averaging.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Averaging.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cleanup.vb" />
+    <Compile Include="CTS_SOA.designer.vb">
+      <DependentUpon>CTS_SOA.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CTS_SOA.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Currents.designer.vb">
+      <DependentUpon>Currents.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Currents.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Distances.designer.vb">
+      <DependentUpon>Distances.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Distances.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Earth_LBR.vb" />
+    <Compile Include="Favorites.designer.vb">
+      <DependentUpon>Favorites.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Favorites.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Fix.designer.vb">
+      <DependentUpon>Fix.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Fix.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FixLoCNASR.designer.vb">
+      <DependentUpon>FixLoCNASR.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FixLoCNASR.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAboutCelestialTools.designer.vb">
+      <DependentUpon>frmAboutCelestialTools.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmAboutCelestialTools.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCredits.designer.vb">
+      <DependentUpon>frmCredits.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmCredits.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPointsOnGCR.designer.vb">
+      <DependentUpon>frmPointsOnGCR.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmPointsOnGCR.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPrintHelp.designer.vb">
+      <DependentUpon>frmPrintHelp.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmPrintHelp.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSelectPrinter.designer.vb">
+      <DependentUpon>frmSelectPrinter.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmSelectPrinter.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSRMethod.designer.vb">
+      <DependentUpon>frmSRMethod.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmSRMethod.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Help.designer.vb">
+      <DependentUpon>Help.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Help.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="I&amp;C.designer.vb">
+      <DependentUpon>I&amp;C.vb</DependentUpon>
+    </Compile>
+    <Compile Include="I&amp;C.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Interpolation.designer.vb">
+      <DependentUpon>Interpolation.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Interpolation.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Jupiter_LBR.vb" />
+    <Compile Include="Length.designer.vb">
+      <DependentUpon>Length.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Length.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LineShapeArray.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Mars_LBR.vb" />
     <Compile Include="Menu.designer.vb">
       <DependentUpon>Menu.vb</DependentUpon>
     </Compile>
     <Compile Include="Menu.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MeridianDiagram.designer.vb">
+      <DependentUpon>MeridianDiagram.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MeridianDiagram.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MoBoard.designer.vb">
+      <DependentUpon>MoBoard.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MoBoard.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
@@ -104,20 +232,149 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <Compile Include="NoonSight.designer.vb">
+      <DependentUpon>NoonSight.vb</DependentUpon>
+    </Compile>
+    <Compile Include="NoonSight.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Plan1.designer.vb">
+      <DependentUpon>Plan1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Plan1.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="PrintScreen.vb" />
+    <Compile Include="Sailings.designer.vb">
+      <DependentUpon>Sailings.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Sailings.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Saturn_LBR.vb" />
+    <Compile Include="SRF1.designer.vb">
+      <DependentUpon>SRF1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SRF1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tides.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ToolTip.vb" />
+    <Compile Include="TVMDC.designer.vb">
+      <DependentUpon>TVMDC.vb</DependentUpon>
+    </Compile>
+    <Compile Include="TVMDC.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TwoBearings.designer.vb">
+      <DependentUpon>TwoBearings.vb</DependentUpon>
+    </Compile>
+    <Compile Include="TwoBearings.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Venus_LBR.vb" />
+    <Compile Include="Vertical.designer.vb">
+      <DependentUpon>Vertical.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Vertical.vb">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="60DST.resX">
       <DependentUpon>60DST.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="ArcTime.resX">
+      <DependentUpon>ArcTime.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Averaging.resX">
+      <DependentUpon>Averaging.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CTS_SOA.resX">
+      <DependentUpon>CTS_SOA.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Currents.resX">
+      <DependentUpon>Currents.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Distances.resx">
+      <DependentUpon>Distances.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Favorites.resX">
+      <DependentUpon>Favorites.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fix.resX">
+      <DependentUpon>Fix.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FixLoCNASR.resX">
+      <DependentUpon>FixLoCNASR.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAboutCelestialTools.resX">
+      <DependentUpon>frmAboutCelestialTools.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCredits.resX">
+      <DependentUpon>frmCredits.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPointsOnGCR.resX">
+      <DependentUpon>frmPointsOnGCR.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPrintHelp.resX">
+      <DependentUpon>frmPrintHelp.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSelectPrinter.resX">
+      <DependentUpon>frmSelectPrinter.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSRMethod.resX">
+      <DependentUpon>frmSRMethod.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Help.resX">
+      <DependentUpon>Help.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="I&amp;C.resX">
+      <DependentUpon>I&amp;C.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Interpolation.resX">
+      <DependentUpon>Interpolation.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Length.resX">
+      <DependentUpon>Length.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Menu.resx">
       <DependentUpon>Menu.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MeridianDiagram.resX">
+      <DependentUpon>MeridianDiagram.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MoBoard.resX">
+      <DependentUpon>MoBoard.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NoonSight.resX">
+      <DependentUpon>NoonSight.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Plan1.resX">
+      <DependentUpon>Plan1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sailings.resX">
+      <DependentUpon>Sailings.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SRF1.resx">
+      <DependentUpon>SRF1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TVMDC.resX">
+      <DependentUpon>TVMDC.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TwoBearings.resX">
+      <DependentUpon>TwoBearings.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vertical.resX">
+      <DependentUpon>Vertical.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>

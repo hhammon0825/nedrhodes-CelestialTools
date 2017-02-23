@@ -2,21 +2,22 @@ Option Strict Off
 Option Explicit On
 Friend Class Form3
 	Inherits System.Windows.Forms.Form
-	'Public FZH(10) As Variant, FZM(10) As Variant, FZS(10) As Variant, FMI(10) As Variant, FZN(10) As Variant
-	'Public FLD(10) As Variant, FLM(10) As Variant, FL(10) As Variant, FMD(10) As Variant, FMM(10) As Variant, FM(10) As Variant
-	
-	Private Sub cmd60DST_Click(ByVal eventSender As System.Object, ByVal eventArgs As System.EventArgs) Handles cmd60DST.Click
-		Form16.Show()
-	End Sub
-	
-	Private Sub cmdAbout_Click(ByVal eventSender As System.Object, ByVal eventArgs As System.EventArgs) Handles cmdAbout.Click
+    'Public FZH(10) As Variant, FZM(10) As Variant, FZS(10) As Variant, FMI(10) As Variant, FZN(10) As Variant
+    'Public FLD(10) As Variant, FLM(10) As Variant, FL(10) As Variant, FMD(10) As Variant, FMM(10) As Variant, FM(10) As Variant
+
+    Private Sub cmd60DST_Click(ByVal eventSender As System.Object, ByVal eventArgs As System.EventArgs) Handles cmd60DST.Click
+        Dim lclForm16 As Form16 = New Form16
+        lclForm16.Show()
+    End Sub
+
+    Private Sub cmdAbout_Click(ByVal eventSender As System.Object, ByVal eventArgs As System.EventArgs) Handles cmdAbout.Click
         'frmAbout.Show()
         NotConvertedYes()
     End Sub
 	
 	Private Sub cmdArcTime_Click(ByVal eventSender As System.Object, ByVal eventArgs As System.EventArgs) Handles cmdArcTime.Click
-        'Form10.Show()
-        NotConvertedYes()
+        Form10.Show()
+        'NotConvertedYes()
     End Sub
 	
 	Private Sub cmdCPA_Click(ByVal eventSender As System.Object, ByVal eventArgs As System.EventArgs) Handles cmdCPA.Click
@@ -25,13 +26,13 @@ Friend Class Form3
     End Sub
 	
 	Private Sub cmdDistances_Click(ByVal eventSender As System.Object, ByVal eventArgs As System.EventArgs) Handles cmdDistances.Click
-        'Form14.Show()
-        NotConvertedYes()
+        Form14.Show()
+        'NotConvertedYes()
     End Sub
 	
 	Private Sub cmdFavorites_Click(ByVal eventSender As System.Object, ByVal eventArgs As System.EventArgs) Handles cmdFavorites.Click
-        'Form7.Show()
-        NotConvertedYes()
+        Form7.Show()
+        'NotConvertedYes()
     End Sub
 	
 	Private Sub cmdHelp_Click(ByVal eventSender As System.Object, ByVal eventArgs As System.EventArgs) Handles cmdHelp.Click
@@ -53,12 +54,13 @@ Friend Class Form3
         'Form1.Show()
         NotConvertedYes()
     End Sub
-	
-	Private Sub cmdNoon_Click(ByVal eventSender As System.Object, ByVal eventArgs As System.EventArgs) Handles cmdNoon.Click
-        'Form5.Show()
-        NotConvertedYes()
+
+    Private Sub cmdNoon_Click(ByVal eventSender As System.Object, ByVal eventArgs As System.EventArgs) Handles cmdNoon.Click
+        Dim lclForm5 As Form5 = New Form5
+        lclForm5.Show()
+        'NotConvertedYes()
     End Sub
-	Private Sub cmdSelectPrinter_Click(ByVal eventSender As System.Object, ByVal eventArgs As System.EventArgs) Handles cmdSelectPrinter.Click
+    Private Sub cmdSelectPrinter_Click(ByVal eventSender As System.Object, ByVal eventArgs As System.EventArgs) Handles cmdSelectPrinter.Click
         'frmSelectPrinter.Show()
         NotConvertedYes()
     End Sub
